@@ -6,7 +6,7 @@ workbook = xlsxwriter.Workbook("D:\python practice\printno.xlsx")
 worksheet = workbook.add_worksheet()
 worksheet.write(0,0,a)
 worksheet.write(1,0,b)
-for i in range(2,101):
+for i in range(2,98):
     c=a+b
     b=c
     a=b
